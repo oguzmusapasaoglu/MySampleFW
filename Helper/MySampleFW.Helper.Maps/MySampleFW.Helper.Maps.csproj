@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\MyCore\MyCore.Common\MyCore.Common.csproj" />
+    <ProjectReference Include="..\..\MyCore\MyCore.Dapper\MyCore.Dapper.csproj" />
+    <ProjectReference Include="..\..\RoleDomain\MySampleFW.RoleDomain.Libraries\MySampleFW.RoleDomain.Libraries.csproj" />
+    <ProjectReference Include="..\..\UserDomain\MySampleFW.UserDomain.Libraries\MySampleFW.UserDomain.Libraries.csproj" />
+  </ItemGroup>
+
+</Project>

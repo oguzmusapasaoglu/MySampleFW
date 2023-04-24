@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.4.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\MyCore\MyCore.Dapper\MyCore.Dapper.csproj" />
+    <ProjectReference Include="..\..\MyCore\MyCore.LogManager\MyCore.LogManager.csproj" />
+    <ProjectReference Include="..\..\RoleDomain\MySampleFW.RoleDomain.Libraries\MySampleFW.RoleDomain.Libraries.csproj" />
+    <ProjectReference Include="..\..\UserDomain\MySampleFW.UserDomain.Libraries\MySampleFW.UserDomain.Libraries.csproj" />
+  </ItemGroup>
+
+</Project>

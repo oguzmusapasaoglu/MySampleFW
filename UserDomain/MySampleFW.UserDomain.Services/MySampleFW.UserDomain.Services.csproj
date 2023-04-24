@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Helper\MySampleFW.Helper.Maps\MySampleFW.Helper.Maps.csproj" />
+    <ProjectReference Include="..\..\Helper\MySampleFW.Helper.Validations\MySampleFW.Helper.Validations.csproj" />
+    <ProjectReference Include="..\..\MyCore\MyCore.Cache\MyCore.Cache.csproj" />
+    <ProjectReference Include="..\..\MyCore\MyCore.Common\MyCore.Common.csproj" />
+    <ProjectReference Include="..\..\MyCore\MyCore.Dapper\MyCore.Dapper.csproj" />
+    <ProjectReference Include="..\..\MyCore\MyCore.LogManager\MyCore.LogManager.csproj" />
+    <ProjectReference Include="..\..\MyCore\MyCore.TokenManager\MyCore.TokenManager.csproj" />
+    <ProjectReference Include="..\..\RoleDomain\MySampleFW.RoleDomain.Libraries\MySampleFW.RoleDomain.Libraries.csproj" />
+    <ProjectReference Include="..\..\RoleDomain\MySampleFW.RoleDomain.Repositores\MySampleFW.RoleDomain.Repositores.csproj" />
+    <ProjectReference Include="..\MySampleFW.UserDomain.Libraries\MySampleFW.UserDomain.Libraries.csproj" />
+    <ProjectReference Include="..\MySampleFW.UserDomain.Repositories\MySampleFW.UserDomain.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
